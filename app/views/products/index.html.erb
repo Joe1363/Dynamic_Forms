@@ -6,7 +6,7 @@
 
 <% @products.each do |product| %>
   <div class="product">
-    <h2>M%= product.name %></h2>
+    <h2><%= product.name %></h2>
       Price: <%= number_to_currency(product.price) %>
   </div>
 <% end %>
